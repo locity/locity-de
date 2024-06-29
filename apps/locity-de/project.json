@@ -1,0 +1,9 @@
+{
+  "name": "locity-de",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/locity-de",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project locity-de --web",
+  "targets": {}
+}
