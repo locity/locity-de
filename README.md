@@ -10,13 +10,26 @@ Enhance your Nx experience by installing [Nx Console](https://nx.dev/nx-console)
 provides an interactive UI to view your projects, run tasks, generate code, and more! Available for VSCode, IntelliJ and
 comes with a LSP for Vim users.
 
-## Start the application
+## Create Workspace
+`npx create-nx-workspace@latest --preset=next  --package-manager=yarn`
+
+## Start the application in dev mode
 
 Run `npx nx dev locity-de` to start the development server. Happy coding!
+
+## Start the application in prod mode
+
+Run `npx nx start locity-de` to start the development server. Happy coding!
 
 ## Build for production
 
 Run `npx nx build locity-de` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
+
+## Add lib
+`nx g @nx/next:lib my-new-lib`
+`nx g @nx/next:page my-new-page --directory=dir-where-to-place-the-page`
+`nx g @nx/next:component my-new-component --directory=dir-where-to-place-the-component`
+`yarn nx generate @nx/next:page --name=contact --directory=apps/locity-de/app/pages/contact --style=scss --nameAndDirectoryFormat=as-provided --no-interactive`
 
 ## Running tasks
 

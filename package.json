@@ -15,8 +15,10 @@
     "@nx/jest": "19.3.2",
     "@nx/js": "19.3.2",
     "@nx/next": "19.3.2",
+    "@nx/react": "19.3.2",
     "@nx/workspace": "19.3.2",
     "@swc-node/register": "~1.9.1",
+    "@swc/cli": "~0.3.12",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
     "@types/jest": "^29.4.0",
@@ -42,5 +44,5 @@
     "ts-node": "10.9.1",
     "typescript": "~5.4.2"
   },
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.3.1"
 }
