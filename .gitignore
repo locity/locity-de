@@ -40,6 +40,7 @@ Thumbs.db
 
 .nx/cache
 .nx/workspace-data
+.yarn/install-state.gz
 
 # Next.js
 .next

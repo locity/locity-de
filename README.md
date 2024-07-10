@@ -11,6 +11,7 @@ provides an interactive UI to view your projects, run tasks, generate code, and 
 comes with a LSP for Vim users.
 
 ## Create Workspace
+
 `npx create-nx-workspace@latest --preset=next  --package-manager=yarn`
 
 ## Start the application in dev mode
@@ -26,10 +27,15 @@ Run `npx nx start locity-de` to start the development server. Happy coding!
 Run `npx nx build locity-de` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
 
 ## Add lib
-`nx g @nx/next:lib my-new-lib`
-`nx g @nx/next:page my-new-page --directory=dir-where-to-place-the-page`
-`nx g @nx/next:component my-new-component --directory=dir-where-to-place-the-component`
+
+`yarn nx g @nx/next:lib my-new-lib`
+`yarn nx g @nx/next:page my-new-page --directory=dir-where-to-place-the-page`
+`yarn nx g @nx/next:component nav --directory=libs/ui/src/lib/nav`
 `yarn nx generate @nx/next:page --name=contact --directory=apps/locity-de/app/pages/contact --style=scss --nameAndDirectoryFormat=as-provided --no-interactive`
+
+## Github pages
+
+https://www.freecodecamp.org/news/how-to-deploy-next-js-app-to-github-pages/
 
 ## Running tasks
 
