@@ -23,6 +23,15 @@ body {
   line-height: inherit;
   margin: 0;
 }
+main {
+  display: block;
+  padding: 8px;
+  min-height: calc(100vh - 56px);
+  box-sizing: border-box;
+  margin-inline: auto;
+  /* max-width: $atPageMaxWidth; */
+}
+
 h1,
 h2,
 p,
