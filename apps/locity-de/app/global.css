@@ -7,9 +7,11 @@
   --link-color: #05386e;
   --link-color-hover: #025dbf;
   --content-max-width: 768px;
-  --header-height: 4rem;
+  --header-height: 3rem;
+  --header-inner-height: 2rem;
   @media screen and (min-width: 768px) {
     --header-height: 5rem;
+    --header-inner-height: 4rem;
   }
 }
 
@@ -131,6 +133,22 @@ h1 {
 h2 {
   margin-top: 1.5rem;
   font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1;
+}
+
+h4 {
+  margin-top: 0.75rem;
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: -0.025em;
   line-height: 1;

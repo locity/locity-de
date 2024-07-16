@@ -1,14 +1,12 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
-
+.container {
+  position: relative;
+  flex-grow: 1;
+}
 .nav {
-  display: flex;
-  justify-content: space-between;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
   align-items: center;
 
   gap: 1rem;
@@ -27,4 +25,56 @@
     background-color: rgba(0, 0, 50, 0.1);
     cursor: default;
   }
+}
+
+.aside {
+  display: flex;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  position: fixed;
+  flex-direction: column;
+  top: var(--header-height);
+  left: -100%;
+  bottom: 0;
+  width: 200px;
+  background-color: #eee;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+  transition: left 400ms ease-in-out;
+  z-index: 2;
+  &.open {
+    left: 0;
+  }
+}
+
+.backdrop {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 400ms ease-in-out 10ms;
+  pointer-events: none;
+  &.open {
+    pointer-events: auto;
+    opacity: 0.5;
+  }
+}
+
+.menu {
+  display: block;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  margin-left: auto;
+  cursor: pointer;
+  height: var(--header-inner-height);
+  width: var(--header-inner-height);
+  border-radius: 4px;
 }

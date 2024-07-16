@@ -3,8 +3,10 @@
 import Link, { LinkProps } from 'next/link'
 import { usePathname } from 'next/navigation'
 import { PropsWithChildren, useEffect, useState } from 'react'
+import styles from './nav-link.module.scss'
 
 type NavLinkProps = LinkProps & {
+  exact?: boolean
   className?: string
   activeClassName: string
 }
@@ -20,7 +22,10 @@ export function NavLink({ children, activeClassName, className, ...props }: Prop
       const linkPathname = new URL(linkUrl, location.href).pathname
       const activePathname = new URL(pathname, location.href).pathname
 
-      const newClassName = linkPathname === activePathname ? `${className} ${activeClassName}`.trim() : className
+      const isActive = props.exact ? linkPathname === activePathname : activePathname.startsWith(linkPathname)
+      const classes = [className, styles['nav-link']]
+      if (isActive) classes.push(activeClassName.trim())
+      const newClassName = classes.join(' ')
 
       if (newClassName !== computedClassName) {
         setComputedClassName(newClassName)
@@ -34,8 +39,6 @@ export function NavLink({ children, activeClassName, className, ...props }: Prop
     </Link>
   )
 }
-
-export default NavLink
 
 const getLinkUrl = (href: LinkProps['href'], as?: LinkProps['as']): string => {
   if (as) return as.toString()

@@ -1,12 +1,15 @@
 .logo {
-  width: 4rem;
-  height: 4rem;
+  width: var(--header-inner-height);
+  height: var(--header-inner-height);
   margin: 0;
   display: block;
 }
 
 .brand {
-  font-size: 3rem;
+  font-size: 2rem;
+  @media screen and (min-width: 768px) {
+    font-size: 3rem;
+  }
   font-weight: 600;
   color: #333;
   margin: 0;
