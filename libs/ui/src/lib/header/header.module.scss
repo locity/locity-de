@@ -1,7 +1,41 @@
 .logo {
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
+  width: 4rem;
+  height: 4rem;
+  margin: 0;
   display: block;
-  margin-bottom: 20px;
+}
+
+.brand {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+  &-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.inner {
+  width: var(--content-max-width);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 1rem;
 }

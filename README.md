@@ -30,7 +30,7 @@ Run `npx nx build locity-de` to build the application. The build artifacts are s
 
 `yarn nx g @nx/next:lib my-new-lib`
 `yarn nx g @nx/next:page my-new-page --directory=dir-where-to-place-the-page`
-`yarn nx g @nx/next:component nav --directory=libs/ui/src/lib/nav`
+`yarn nx g @nx/next:component NavLink --directory=libs/ui/src/lib/nav-link`
 `yarn nx generate @nx/next:page --name=contact --directory=apps/locity-de/app/pages/contact --style=scss --nameAndDirectoryFormat=as-provided --no-interactive`
 
 ## Github pages

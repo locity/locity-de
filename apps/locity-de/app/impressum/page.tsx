@@ -3,6 +3,53 @@ import styles from './page.module.scss'
 export default function Impressum() {
   return (
     <div className={styles['container']}>
+      <h1>Impressum</h1>
+      <br />
+      <p>
+        <strong>Angaben gemäß §5 TMG</strong>
+      </p>
+      <p>
+        Locity GmbH
+        <br /> Neusurenland 160
+        <br /> 22159 Hamburg
+      </p>
+      <br />
+      <p>
+        <strong>Geschäftsführung:</strong> Marco Steinhoff, Tobias Krogh
+        <br /> <strong>Steuer-Nr.:</strong> 50/740/01272
+        <br /> <strong>USt-IdNr.:</strong> DE288843393
+        <br /> <strong>Handelsregister:</strong> Amtsgericht Hamburg HRB 126691
+        <br /> <strong>Sitz der Gesellschaft:</strong> Hamburg
+        <br />
+      </p>
+      <h2>Kontakt</h2>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Telefon:</td>
+            <td>
+              <a href="tel:+494060941595">+49.40.60941595</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Fax:</td>
+            <td>+49.40.60941595.9</td>
+          </tr>
+          <tr>
+            <td>eMail:</td>
+            <td>
+              <a href="mailto:contact@locity.de">contact@locity.de</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Haftungsausschluss</h2>
       <h4>Haftung für Links</h4>
       <p>
         Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese

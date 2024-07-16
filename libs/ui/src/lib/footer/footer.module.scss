@@ -1,7 +1,16 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.link {
+  padding: 0.25rem;
+  color: var(--link-color);
+  user-select: none;
+  &:hover {
+    color: var(--link-color-hover);
+  }
+}

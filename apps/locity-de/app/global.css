@@ -3,6 +3,16 @@
   src: url('/fonts/SourceCodePro-Variable.ttf') format('truetype');
 }
 
+:root {
+  --link-color: #05386e;
+  --link-color-hover: #025dbf;
+  --content-max-width: 768px;
+  --header-height: 4rem;
+  @media screen and (min-width: 768px) {
+    --header-height: 5rem;
+  }
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
@@ -23,12 +33,13 @@ body {
   margin: 0;
 }
 main {
+  padding-top: var(--header-height);
   display: block;
-  padding: 8px;
-  min-height: calc(100vh - 56px);
+  width: var(--content-max-width);
+  padding-inline: 1rem;
+  min-height: 100vh;
   box-sizing: border-box;
   margin-inline: auto;
-  /* max-width: $atPageMaxWidth; */
 }
 
 h1,
@@ -51,9 +62,13 @@ h2 {
   font-weight: inherit;
 }
 a {
-  color: inherit;
   text-decoration: inherit;
+  color: var(--link-color);
+  &:hover {
+    color: var(--link-color-hover);
+  }
 }
+
 pre {
   font-family:
     ui-monospace,
@@ -108,6 +123,14 @@ pre {
 h1 {
   margin-top: 2.5rem;
   font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   letter-spacing: -0.025em;
   line-height: 1;
