@@ -1,5 +1,5 @@
 export default {
-  printWidth: 140,
+  printWidth: 200,
   singleQuote: true,
   semi: false,
   tabWidth: 2,
@@ -15,7 +15,7 @@ export default {
     {
       files: ['*.html'],
       options: {
-        printWidth: 160,
+        printWidth: 200,
       },
     },
   ],

@@ -6,9 +6,9 @@
 }
 
 .brand {
-  font-size: 2rem;
+  font-size: 1.5rem;
   @media screen and (min-width: 768px) {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   font-weight: 600;
   color: #333;
@@ -24,8 +24,6 @@
 
 .header {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #f8f9fa;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: fixed;

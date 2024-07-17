@@ -6,11 +6,11 @@ import { NavLink } from '../nav-link/nav-link'
 import styles from './nav.module.scss'
 
 const menuItems = [
-  // { text: 'Home', href: '/' },
+  { text: 'architecture', href: '/architecture' },
+  { text: 'development', href: '/development' },
   { text: 'projekte', href: '/projekte' },
   { text: 'team', href: '/team' },
   { text: 'kontakt', href: '/kontakt' },
-  // { text: 'Impressum', href: '/impressum' },
 ]
 
 export function Nav() {
