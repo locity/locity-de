@@ -1,5 +1,11 @@
+import { Metadata } from 'next'
 import Link from 'next/link'
 import styles from './page.module.scss'
+
+export const metadata: Metadata = {
+  title: 'team',
+  description: 'Frontend Architecktur und Entwicklung',
+}
 
 export default function Team() {
   return (

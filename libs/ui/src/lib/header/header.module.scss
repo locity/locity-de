@@ -3,6 +3,7 @@
   height: var(--header-inner-height);
   margin: 0;
   display: block;
+  transition: all 200ms ease-in-out;
 }
 
 .brand {
@@ -13,6 +14,7 @@
   font-weight: 600;
   color: #333;
   margin: 0;
+  transition: font-size 200ms ease-in-out;
   &-link {
     text-decoration: none;
     color: inherit;

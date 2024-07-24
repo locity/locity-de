@@ -1,4 +1,10 @@
+import { Metadata } from 'next'
 import styles from './page.module.scss'
+
+export const metadata: Metadata = {
+  title: 'marco steinhoff',
+  description: 'Frontend Architecktur und Entwicklung',
+}
 
 export default function MarcoSteinhoff() {
   return (
@@ -18,12 +24,10 @@ export default function MarcoSteinhoff() {
       </p>
       <h4>Werdegang</h4>
       <p>
-        Nach meinem Diplom in Wirt.-Inf. gründete ich mit zwei Freunden das erste StartUp - TEAMSUNITED. Hier füllte ich die Position des
-        CTOs aus und wuchs mit den entwicklungstechnischen sowie betriebswirtschaftlichen Aufgaben. Trotz vieler gewonnener Wettbewerbe und
-        zahlreicher Investoren konnte die erforderliche Marktdurchdringung nicht erreicht werden und so wurde TEAMSUNITED 2012 eingestellt.
-        Seitdem arbeite ich als freiberuflicher Full-Stack Web- Entwickler für verschiedene StartUps, Kunden und Agenturen. Im Jahr 2013
-        gründete ich die Locity UG als Entwicklungs- und Beteiligungsgesellschaft und mit Aufnahme eines zweiten Gesellschafters wurde die
-        Locity UG im Mai 2017 zur Locity GmbH.
+        Nach meinem Diplom in Wirt.-Inf. gründete ich mit zwei Freunden das erste StartUp - TEAMSUNITED. Hier füllte ich die Position des CTOs aus und wuchs mit den entwicklungstechnischen sowie
+        betriebswirtschaftlichen Aufgaben. Trotz vieler gewonnener Wettbewerbe und zahlreicher Investoren konnte die erforderliche Marktdurchdringung nicht erreicht werden und so wurde TEAMSUNITED
+        2012 eingestellt. Seitdem arbeite ich als freiberuflicher Full-Stack Web- Entwickler für verschiedene StartUps, Kunden und Agenturen. Im Jahr 2013 gründete ich die Locity UG als Entwicklungs-
+        und Beteiligungsgesellschaft und mit Aufnahme eines zweiten Gesellschafters wurde die Locity UG im Mai 2017 zur Locity GmbH.
       </p>
     </div>
   )

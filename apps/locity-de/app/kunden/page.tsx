@@ -1,9 +1,15 @@
+import { Metadata } from 'next'
 import styles from './page.module.scss'
+
+export const metadata: Metadata = {
+  title: 'kunden',
+  description: 'Frontend Architecktur und Entwicklung',
+}
 
 export default function Kunden() {
   return (
     <div className={styles['container']}>
-      <h1>Kunden</h1>
+      <h1>Kundenprojekte</h1>
       {/* 
       <h2>ZEAL Network SE - Lotto24 (2022-2024)</h2>
       <p>
