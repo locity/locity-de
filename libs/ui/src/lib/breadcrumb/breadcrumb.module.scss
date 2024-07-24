@@ -1,0 +1,14 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--text-color);
+  margin-block: 0.25rem 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.wrapper {
+  display: contents;
+}

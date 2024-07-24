@@ -17,32 +17,28 @@ export default function Index() {
       <h3>Gemeinsam gestalten wir Ihre digitale Zukunft</h3>
 
       <p>
-        Willkommen bei locity, Ihrem Partner für herausragende Frontend-Entwicklung und Architektur. Mit jahrzehntelanger Erfahrung im
-        Entwurf und der Migration von Unternehmensarchitekturen bringen wir die Expertise mit, die Ihr Projekt benötigt.
+        Willkommen bei locity, Ihrem Partner für herausragende Frontend-Entwicklung und Architektur. Mit jahrzehntelanger Erfahrung im Entwurf und der Migration von Unternehmensarchitekturen bringen
+        wir die Expertise mit, die Ihr Projekt benötigt.
       </p>
 
       <section>
         <h2>Wer wir sind</h2>
         <p>
-          Wir sind zwei erfahrene Frontend Entwickler mit einer Leidenschaft für sauberen Code und innovative Lösungen. Unsere Karriere
-          haben wir in großen Unternehmen gestartet, wo wir maßgeblich an der Gestaltung und Migration komplexer Architekturen beteiligt
-          waren. Jetzt bringen wir dieses Wissen und diese Erfahrung direkt zu Ihnen.
+          Wir sind zwei erfahrene Frontend Entwickler mit einer Leidenschaft für sauberen Code und innovative Lösungen. Unsere Karriere haben wir in großen Unternehmen gestartet, wo wir maßgeblich an
+          der Gestaltung und Migration komplexer Architekturen beteiligt waren. Jetzt bringen wir dieses Wissen und diese Erfahrung direkt zu Ihnen.
         </p>
       </section>
 
       <section>
         <h2>Unsere Dienstleistungen</h2>
         <p>
-          <strong>Architektur-Design und -Migration:</strong> Wir entwerfen skalierbare und effiziente Architekturen und unterstützen Sie
-          bei der Migration bestehender Systeme.
+          <strong>Architektur-Design und -Migration:</strong> Wir entwerfen skalierbare und effiziente Architekturen und unterstützen Sie bei der Migration bestehender Systeme.
         </p>
         <p>
-          <strong>Frontend-Entwicklung:</strong> Von der ersten Idee bis zur finalen Umsetzung – wir liefern maßgeschneiderte
-          Frontend-Lösungen.
+          <strong>Frontend-Entwicklung:</strong> Von der ersten Idee bis zur finalen Umsetzung – wir liefern maßgeschneiderte Frontend-Lösungen.
         </p>
         <p>
-          <strong>Beratung und Schulung:</strong> Profitieren Sie von unserer Expertise und schulen Sie Ihr Team in den neuesten
-          Technologien und Best Practices.
+          <strong>Beratung und Schulung:</strong> Profitieren Sie von unserer Expertise und schulen Sie Ihr Team in den neuesten Technologien und Best Practices.
         </p>
       </section>
 
@@ -61,7 +57,7 @@ export default function Index() {
       </section>
 
       <section>
-        <h2>Unsere Projekte</h2>
+        <h2>Unsere Kundenprojekte</h2>
         <p>
           Wir haben erfolgreich Projekte für namhafte Unternehmen realisiert.
           <br />

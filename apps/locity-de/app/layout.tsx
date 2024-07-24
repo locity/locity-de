@@ -1,4 +1,4 @@
-import { Footer, Header } from '@ui'
+import { Breadcrumb, Footer, Header } from '@ui'
 import './global.css'
 import { FooterItems, HeaderItems } from './navigation-items'
 
@@ -25,7 +25,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <Header items={HeaderItems} />
-        <main>{children}</main>
+        <main>
+          <>
+            <Breadcrumb />
+            {children}
+          </>
+        </main>
         <Footer items={FooterItems} />
       </body>
     </html>
