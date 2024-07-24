@@ -1,23 +1,22 @@
 import Link from 'next/link'
+import { PropsWithChildren } from 'react'
+import { NavItem } from '../types'
 import styles from './footer.module.scss'
 
-export function Footer() {
+type FooterProps = {
+  items: NavItem[]
+}
+
+export function Footer({ items }: PropsWithChildren<FooterProps>) {
   const year = new Date().getFullYear()
   return (
     <div className={styles['container']}>
       <p>© {year} locity gmbh</p>
-      <p> - </p>
-      <Link className={styles['link']} href="/datenschutz">
-        datenschutz
-      </Link>
-      <p> - </p>
-      <Link className={styles['link']} href="/kontakt">
-        kontakt
-      </Link>
-      <p> - </p>
-      <Link className={styles['link']} href="/impressum">
-        impressum
-      </Link>
+      {items.map((item, index) => (
+        <Link className={styles['link']} key={index} href={item.href}>
+          {item.text}
+        </Link>
+      ))}
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import { Footer, Header } from '@ui'
 import './global.css'
+import { FooterItems, HeaderItems } from './navigation-items'
 
 export const metadata = {
   title: 'Welcome to locity-de',
@@ -23,9 +24,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="theme-color" content="#4671D5" />
       </head>
       <body>
-        <Header />
+        <Header items={HeaderItems} />
         <main>{children}</main>
-        <Footer />
+        <Footer items={FooterItems} />
       </body>
     </html>
   )

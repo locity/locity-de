@@ -35,9 +35,9 @@ body {
   margin: 0;
 }
 main {
-  padding-top: var(--header-height);
+  padding-block: var(--header-height) 3rem;
   display: block;
-  width: var(--content-max-width);
+  max-width: var(--content-max-width);
   padding-inline: 1rem;
   min-height: 100vh;
   box-sizing: border-box;

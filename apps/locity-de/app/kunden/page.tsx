@@ -1,9 +1,9 @@
 import styles from './page.module.scss'
 
-export default function Projekte() {
+export default function Kunden() {
   return (
     <div className={styles['container']}>
-      <h1>Projekte</h1>
+      <h1>Kunden</h1>
       {/* 
       <h2>ZEAL Network SE - Lotto24 (2022-2024)</h2>
       <p>
@@ -57,15 +57,11 @@ export default function Projekte() {
         Webseiten Architektur: Unsere Erfolgsprojekte und Erfahrungen
       </h3> */}
       <p>
-        Webseiten-Architektur ist der Schlüssel zu leistungsstarken, skalierbaren und wartungsfreundlichen Webanwendungen. Unsere Expertise
-        reicht von der Konzeption bis zur Umsetzung komplexer Architekturen, die auf modernsten Technologien und Best Practices basieren. Im
-        Folgenden geben wir Ihnen einen Einblick in einige unserer erfolgreich umgesetzten Projekte.
+        Webseiten-Architektur ist der Schlüssel zu leistungsstarken, skalierbaren und wartungsfreundlichen Webanwendungen. Unsere Expertise reicht von der Konzeption bis zur Umsetzung komplexer
+        Architekturen, die auf modernsten Technologien und Best Practices basieren. Im Folgenden geben wir Ihnen einen Einblick in einige unserer erfolgreich umgesetzten Projekte.
       </p>
       <h3 id="zeal-network-se---lotto24-2022-2024">Zeal Network SE - Lotto24 (2022-2024)</h3>
-      <p>
-        Für Lotto24 haben wir die Frontend-Architektur von einer monolithischen Struktur zu modularen Bibliotheken umgestellt. Dies
-        beinhaltete:
-      </p>
+      <p>Für Lotto24 haben wir die Frontend-Architektur von einer monolithischen Struktur zu modularen Bibliotheken umgestellt. Dies beinhaltete:</p>
       <ul>
         <li>
           <strong>Upgrade auf Angular 17</strong>: Aktualisierung aller Anwendungen und Bibliotheken.
@@ -100,8 +96,7 @@ export default function Projekte() {
           <strong>Integration als Cookiecutter Template</strong>: Vereinfachung der Implementierung.
         </li>
         <li>
-          <strong>Backstage und Stencil Component Lib</strong>: Aufbau einer Verwaltungsschnittstelle und einer komponentenbasierten
-          Bibliothek.
+          <strong>Backstage und Stencil Component Lib</strong>: Aufbau einer Verwaltungsschnittstelle und einer komponentenbasierten Bibliothek.
         </li>
         <li>
           <strong>Angular 13 App</strong>: Entwicklung und Integration einer modernen Angular-Anwendung.
@@ -127,8 +122,7 @@ export default function Projekte() {
       <p>Für eine Musikstreaming-Plattform entwickelten wir einen Prototypen:</p>
       <ul>
         <li>
-          <strong>Suchmaschinenoptimierte Single-Page-App</strong>: Umsetzung von asynchroner Übersetzung, SSR, AMP Prozessor und Lazy
-          Loading Mechanismen.
+          <strong>Suchmaschinenoptimierte Single-Page-App</strong>: Umsetzung von asynchroner Übersetzung, SSR, AMP Prozessor und Lazy Loading Mechanismen.
         </li>
         <li>
           <strong>POC mit React und Angular</strong>: Initiale Implementierung mit React 16 und Erweiterung auf Angular 6.
@@ -145,8 +139,7 @@ export default function Projekte() {
       <p>Bei Xippios UG führten wir eine digitale Transformation durch:</p>
       <ul>
         <li>
-          <strong>Plattform zur Datensammlung und -auswertung</strong>: Implementierung einer geschlossenen Plattform mit administrativem
-          Bereich.
+          <strong>Plattform zur Datensammlung und -auswertung</strong>: Implementierung einer geschlossenen Plattform mit administrativem Bereich.
         </li>
         <li>
           <strong>Einsatz von React 16</strong>: Nutzung von React in Kombination mit MobX.
@@ -170,9 +163,8 @@ export default function Projekte() {
       </ul>
       <h3 id="fazit">Fazit</h3>
       <p>
-        Unsere Projekte demonstrieren unsere Fähigkeiten und unser Engagement für exzellente Webseiten-Architektur. Durch kontinuierliche
-        Weiterbildung und die Anwendung modernster Technologien stellen wir sicher, dass unsere Lösungen stets auf dem neuesten Stand sind
-        und den Anforderungen unserer Kunden gerecht werden.
+        Durch die Projekte bei unseren Kunden demonstrieren unsere Fähigkeiten und unser Engagement für exzellente Webseiten-Architektur. Durch kontinuierliche Weiterbildung und die Anwendung
+        modernster Technologien stellen wir sicher, dass unsere Lösungen stets auf dem neuesten Stand sind und den Anforderungen unserer Kunden gerecht werden.
       </p>
     </div>
   )
